@@ -1,0 +1,80 @@
+/*--------------------------------------------------------------
+# Contact
+--------------------------------------------------------------*/
+.portfolio {
+    padding-bottom: 130px;
+  }
+.portfolio li{
+    font-size: 15px;
+}
+.portfolio h2{
+    text-align:center;
+}
+.portfolio .title-border {
+    height: 10px;
+    border-top: 2px solid #DBDBDB;
+}
+  
+.portfolio .info {
+padding: 30px;
+background: #fff;
+width: 100%;
+box-shadow: 0 0 24px 0 rgba(0, 0, 0, 0.12);
+}
+
+.portfolio .info h4 {
+padding: 0 0 0 10px;
+font-size: 20px;
+font-weight: 600;
+margin-bottom: 5px;
+color: #050d18;
+}
+
+.portfolio .info p {
+padding: 0 0 10px 11px;
+margin-bottom: 20px;
+font-size: 15px;
+color: black;
+}
+  
+.stage-info{
+    width: 75%;
+    text-align: center;
+    margin: 0 auto;
+    margin-bottom: 10px;
+}
+.section-title.stage-info h2::after{
+    position: relative;
+    margin: 0 auto;
+    left: -88px;
+    margin-top: 5px;
+}
+.stage-info h2{
+    margin-bottom: 8px;
+    padding-bottom: 8px;
+}
+.coas-logo{
+    background: #0064a7 url(../img/coas.png) no-repeat fixed center;
+    width: 202px;
+    background-size: 82%;
+    height: 50px;
+    position: absolute;
+    right: 46px;
+    top: 4px;
+    border-radius: 5px;
+}
+.hidden{
+    display:none;
+}
+
+.leerdoel{
+    color:black;
+}
+.leerdoelen{
+    margin-top: 5px;
+    margin-bottom:5px;
+}
+
+.info li{
+    padding:2px;
+}

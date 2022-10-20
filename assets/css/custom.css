@@ -1,80 +1,77 @@
-/*--------------------------------------------------------------
-# Contact
---------------------------------------------------------------*/
-.portfolio {
-    padding-bottom: 130px;
-  }
-.portfolio li{
-    font-size: 15px;
+#main h2 {
+    margin-top: 40px;
+    text-align: center;
+    font-size: 31px;
+    margin-left:30px;
 }
-.portfolio h2{
-    text-align:center;
+
+body{ background: #f5f8fd; }
+p{ font-size: 16px; margin:0; padding:0;}
+h6 { font-weight: bold; margin-top: 20px; margin-bottom: 4px; }
+.card{
+    padding: 30px;
+    background: #fff;
+    width: 100%;
+    box-shadow: 0 0 24px 0 rgba(0, 0, 0, 0.12);
+    margin-top:20px;
+    margin-bottom:15px
 }
-.portfolio .title-border {
+
+.grey-border{
     height: 10px;
     border-top: 2px solid #DBDBDB;
 }
-  
-.portfolio .info {
-padding: 30px;
-background: #fff;
-width: 100%;
-box-shadow: 0 0 24px 0 rgba(0, 0, 0, 0.12);
-}
 
-.portfolio .info h4 {
-padding: 0 0 0 10px;
-font-size: 20px;
-font-weight: 600;
-margin-bottom: 5px;
-color: #050d18;
+.doel{
+    font-style: italic;
+    margin-bottom:10px;
+    font-size:17px;
+    /* text-decoration: underline; */
 }
-
-.portfolio .info p {
-padding: 0 0 10px 11px;
-margin-bottom: 20px;
-font-size: 15px;
-color: black;
+.leerdoel-boxes{
+    width: 100%;
+    /* height: 100%; */
+    height: 300px;
 }
-  
-.stage-info{
-    width: 75%;
-    text-align: center;
+.manage { width: 100%; height: 300px; }
+.manage .outerbox{
+    background-image: url(../img/background.gif);
+    background-size: 100%;
+    height: 100%;
+  }
+.manage .innerbox{
+    background-color:black;
+    opacity: 0.5;
+    height:100%;
+}
+.innerbox h2{
+    opacity: 1;
+    color: white;
+}
+.og h4{
+    font-size: 20px;
+    color: #173b6c;
+    font-weight: bold;
+}
+.og p{
+    padding-top: 3px;
+    padding-bottom: 3px;
+}
+.intro { padding-top: 20px;
+background:white; 
+}
+li{
+    font-size: 16px;
+}
+.bewijslast, .reflectie{
+    background:white;
+}
+.in-between{
+    height: 2px;
+    width: 95%;
+    clear:both;
     margin: 0 auto;
-    margin-bottom: 10px;
-}
-.section-title.stage-info h2::after{
-    position: relative;
-    margin: 0 auto;
-    left: -88px;
-    margin-top: 5px;
-}
-.stage-info h2{
-    margin-bottom: 8px;
-    padding-bottom: 8px;
-}
-.coas-logo{
-    background: #0064a7 url(../img/coas.png) no-repeat fixed center;
-    width: 202px;
-    background-size: 82%;
-    height: 50px;
-    position: absolute;
-    right: 46px;
-    top: 4px;
-    border-radius: 5px;
-}
-.hidden{
-    display:none;
-}
-
-.leerdoel{
-    color:black;
-}
-.leerdoelen{
-    margin-top: 5px;
-    margin-bottom:5px;
-}
-
-.info li{
-    padding:2px;
-}
+    background: #173b6c;
+    margin-top: 40px;
+    margin-bottom: 40px;
+ }

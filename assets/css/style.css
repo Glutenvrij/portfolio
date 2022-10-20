@@ -36,6 +36,12 @@ h6 {
   font-family: "Raleway", sans-serif;
 }
 
+.hidden{
+  display:none !important;
+}
+
+
+
 /*--------------------------------------------------------------
 # Back to top button
 --------------------------------------------------------------*/
@@ -124,14 +130,14 @@ h6 {
   transition: 0.3s;
 }
 
+#main{
+  margin-left: 300px;
+}
+
 #header .profile .social-links a:hover {
   background: #149ddd;
   color: #fff;
   text-decoration: none;
-}
-
-#main {
-  margin-left: 300px;
 }
 
 @media (max-width: 1199px) {
@@ -294,6 +300,71 @@ h6 {
   }
 }
 
+.leerdoel-hero.realiseren {
+  width: 100%;
+  height: 100vh;
+  background-size: cover !important;
+  background: url("../img/realiseren2.jpg") top center;
+}
+
+.leerdoel-hero:before {
+  content: "";
+  background: rgba(5, 13, 24, 0.3);
+  position: absolute;
+  bottom: 0;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 1;
+}
+
+.leerdoel-hero .hero-container {
+  position: relative;
+  z-index: 2;
+  min-width: 300px;
+}
+
+.leerdoel-hero h1 {
+  margin: 0 0 10px 0;
+  font-size: 64px;
+  font-weight: 700;
+  line-height: 56px;
+  color: #fff;
+}
+
+.leerdoel-hero p {
+  color: #fff;
+  margin-bottom: 50px;
+  font-size: 26px;
+  font-family: "Poppins", sans-serif;
+}
+
+.leerdoel-hero p span {
+  color: #fff;
+  padding-bottom: 4px;
+  letter-spacing: 1px;
+  border-bottom: 3px solid #149ddd;
+}
+
+@media (min-width: 1024px) {
+  .leerdoel-hero {
+    background-attachment: fixed;
+  }
+}
+
+@media (max-width: 768px) {
+  .leerdoel-hero h1 {
+    font-size: 28px;
+    line-height: 36px;
+  }
+
+  .leerdoel-hero h2 {
+    font-size: 18px;
+    line-height: 24px;
+    margin-bottom: 30px;
+  }
+}
+
 /*--------------------------------------------------------------
 # Sections General
 --------------------------------------------------------------*/
@@ -341,6 +412,9 @@ section {
   font-weight: 700;
   font-size: 26px;
   color: #173b6c;
+}
+#about{
+  background: #fff;
 }
 
 .about .content ul {
@@ -455,67 +529,6 @@ section {
   height: 10px;
   transition: 0.9s;
   background-color: #149ddd;
-}
-
-/*--------------------------------------------------------------
-# Resume
---------------------------------------------------------------*/
-.resume .resume-title {
-  font-size: 26px;
-  font-weight: 700;
-  margin-top: 20px;
-  margin-bottom: 20px;
-  color: #050d18;
-}
-
-.resume .resume-item {
-  padding: 0 0 20px 20px;
-  margin-top: -2px;
-  border-left: 2px solid #1f5297;
-  position: relative;
-}
-
-.resume .resume-item h4 {
-  line-height: 18px;
-  font-size: 18px;
-  font-weight: 600;
-  text-transform: uppercase;
-  font-family: "Poppins", sans-serif;
-  color: #050d18;
-  margin-bottom: 10px;
-}
-
-.resume .resume-item h5 {
-  font-size: 16px;
-  background: #e4edf9;
-  padding: 5px 15px;
-  display: inline-block;
-  font-weight: 600;
-  margin-bottom: 10px;
-}
-
-.resume .resume-item ul {
-  padding-left: 20px;
-}
-
-.resume .resume-item ul li {
-  padding-bottom: 10px;
-}
-
-.resume .resume-item:last-child {
-  padding-bottom: 0;
-}
-
-.resume .resume-item::before {
-  content: "";
-  position: absolute;
-  width: 16px;
-  height: 16px;
-  border-radius: 50px;
-  left: -9px;
-  top: 0;
-  background: #fff;
-  border: 2px solid #1f5297;
 }
 
 /*--------------------------------------------------------------
@@ -684,60 +697,6 @@ section {
   padding: 0;
 }
 
-/*--------------------------------------------------------------
-# Services
---------------------------------------------------------------*/
-.services .icon-box {
-  margin-bottom: 20px;
-}
-
-.services .icon {
-  float: left;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  width: 54px;
-  height: 54px;
-  background: #149ddd;
-  border-radius: 50%;
-  transition: 0.5s;
-  border: 1px solid #149ddd;
-}
-
-.services .icon i {
-  color: #fff;
-  font-size: 24px;
-  line-height: 0;
-}
-
-.services .icon-box:hover .icon {
-  background: #fff;
-}
-
-.services .icon-box:hover .icon i {
-  color: #149ddd;
-}
-
-.services .title {
-  margin-left: 80px;
-  font-weight: 700;
-  margin-bottom: 15px;
-  font-size: 18px;
-}
-
-.services .title a {
-  color: #343a40;
-}
-
-.services .title a:hover {
-  color: #149ddd;
-}
-
-.services .description {
-  margin-left: 80px;
-  line-height: 24px;
-  font-size: 14px;
-}
 
 /*--------------------------------------------------------------
 # Testimonials
@@ -831,84 +790,80 @@ section {
   background-color: #149ddd;
 }
 
-
 /*--------------------------------------------------------------
-# Breadcrumbs
+# Contact
 --------------------------------------------------------------*/
-.breadcrumbs {
-  padding: 20px 0;
-  background: #f9f9f9;
+.portfolio {
+  padding-bottom: 130px;
 }
-
-.breadcrumbs h2 {
-  font-size: 26px;
-  font-weight: 300;
-}
-
-.breadcrumbs ol {
-  display: flex;
-  flex-wrap: wrap;
-  list-style: none;
-  padding: 0;
-  margin: 0;
+.portfolio li{
   font-size: 15px;
 }
-
-.breadcrumbs ol li+li {
-  padding-left: 10px;
+.portfolio h2{
+  text-align:center;
+}
+.portfolio .title-border {
+  height: 10px;
+  border-top: 2px solid #DBDBDB;
 }
 
-.breadcrumbs ol li+li::before {
-  display: inline-block;
-  padding-right: 10px;
-  color: #0e2442;
-  content: "/";
+.portfolio .info {
+padding: 30px;
+background: #fff;
+width: 100%;
+box-shadow: 0 0 24px 0 rgba(0, 0, 0, 0.12);
 }
 
-@media (max-width: 768px) {
-  .breadcrumbs .d-flex {
-    display: block !important;
-  }
-
-  .breadcrumbs ol {
-    display: block;
-  }
-
-  .breadcrumbs ol li {
-    display: inline-block;
-  }
+.portfolio .info h4 {
+padding: 0 0 0 10px;
+font-size: 20px;
+font-weight: 600;
+margin-bottom: 5px;
+color: #050d18;
 }
 
-/*--------------------------------------------------------------
-# Footer
---------------------------------------------------------------*/
-#footer {
-  padding: 15px;
-  color: #f4f6fd;
-  font-size: 14px;
-  position: fixed;
-  left: 0;
-  bottom: 0;
-  width: 300px;
-  z-index: 9999;
-  background: #040b14;
+.portfolio .info p {
+padding: 0 0 10px 11px;
+margin-bottom: 20px;
+font-size: 15px;
+color: black;
 }
 
-#footer .copyright {
+.stage-info{
+  width: 75%;
   text-align: center;
+  margin: 0 auto;
+  margin-bottom: 10px;
+}
+.section-title.stage-info h2::after{
+  position: relative;
+  margin: 0 auto;
+  left: -88px;
+  margin-top: 5px;
+}
+.stage-info h2{
+  margin-bottom: 8px;
+  padding-bottom: 8px;
+}
+.coas-logo{
+background: #0064a7 url(../img/coas.png) no-repeat fixed center;
+width: 202px;
+background-size: 82%;
+height: 50px;
+position: absolute;
+right: 46px;
+top: 4px;
+border-radius: 5px;
 }
 
-#footer .credits {
-  padding-top: 5px;
-  text-align: center;
-  font-size: 13px;
-  color: #eaebf0;
+.leerdoel{
+  color:black;
+}
+.leerdoelen{
+  margin-top: 5px;
+  margin-bottom:5px;
 }
 
-@media (max-width: 1199px) {
-  #footer {
-    position: static;
-    width: auto;
-    padding-right: 20px 15px;
-  }
+.info li{
+  padding:2px;
 }

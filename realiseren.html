@@ -5,7 +5,7 @@
   <meta charset="utf-8">
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
 
-  <title>iPortfolio Bootstrap Template - Index</title>
+  <title>Portfolio</title>
   <meta content="" name="description">
   <meta content="" name="keywords">
 
@@ -47,8 +47,8 @@
       <nav id="navbar" class="nav-menu navbar">
         <ul>
           <li><a href="index.html#hero" class="nav-link scrollto"><i class="bx bx-home"></i> <span>Home</span></a></li>
-          <li><a href="index.html#about" class="nav-link scrollto"><i class="bx bx-user"></i> <span>Over</span></a></li>
-          <li><a href="index.html#portfolio" class="nav-link scrollto"><i class="bx bx-spreadsheet"></i> <span>Portfolio</span></a></li>
+          <li><a href="index.html#about" class="nav-link scrollto hidden"><i class="bx bx-user"></i> <span>Over</span></a></li>
+          <li><a href="index.html#portfolio" class="nav-link scrollto hidden"><i class="bx bx-spreadsheet"></i> <span>Portfolio</span></a></li>
           <li><a href="control.html" class="nav-link "><i class="bx bxs-collection"></i> <span>Manage & Control</span></a></li>
           <li><a href="analyse.html" class="nav-link multi"><i class="bx bx-book-content"></i> <span>Analyseren</span></a>
             <ul class="hidden">
@@ -80,8 +80,116 @@
     </div>
   </header><!-- End Header -->
 
+  <section class="leerdoel-hero realiseren d-flex flex-column justify-content-center align-items-center">
+    <div class="hero-container" data-aos="fade-in">
+      <h1>Realiseren</h1>
+      <!-- <p>Tijdens mijn stage wil ik code hebben geschreven en hebben opgeleverd van een lopende ticket, hebben voldaan aan de standaarden van mijn team. </p> -->
+      <p> Leerdoel 7</p>
+    </div>
+  </section><!-- End Hero -->
+
   <main id="main">
-    asdsa
+    <section class="intro og">
+      <div class="container">
+        <div class="section-title">
+          <h2>Tijdens mijn stage wil ik code hebben geschreven en opgeleverd van een lopende ticket, voldaan aan de eisen en standaarden van het team.</h2>
+          <p>Gedurende mijn stage wil ik mijzelf vertrouwd maken met de code en het systeem van mijn stage bedrijf om hiervoor werkzaamheden op te kunnen pakken en af te kunnen ronden.
+             .... lorem ....... ipsum ...... hierom heb ik deze leerdoel gesteld. </p>
+          <br>
+        </div>
+          <h4>Inleiding</h4>
+          <div class="row">
+          <p class="col-md-6">Voor een demo zal een bestaand scherm aangepast worden zodat de klant kan inzien hoe een scherm eruit komt te zien wanneer het product gerealiseerd gaat worden. 
+            Hiervoor zal een tekst aangepast worden en na de demo weer teruggezet moeten worden. 
+            Dit is natuurlijk geen goede oplossing. 
+            Hierom zal deze tekst in dit scherm dynamisch gemaakt worden zodat de bedrijfsnaam op dit scherm in de toekomst makkelijk aangepast kan worden voor andere klanten
+            </p>
+            <img src="assets/img/realiseren/vraag.png" class="img-fluid col-md-6" alt="">
+          </div>
+      </div>
+    </section>
+    <section class="werkwijze og">
+      <div class="container">
+        <div class="section-title">
+          <h4>Werkwijze</h4>
+          <p> Om de tekst van de bedrijfsnaam in de tekst van dit scherm dynamisch te maken moeten de volgende aanpassingen gemaakt worden:
+            Op dit moment staat de benaming specifiek gemaakt voor de portal van SIXT. </p>
+          <p>Dit moet generiek gemaakt worden zodat elk bedrijfsnaam ingevuld kan worden en het de tekst hierbij aanpast.
+          Hiervoor moet de benaming veranderd worden van SIXT_LEASECAR naar LEASECAR in de gehele applicatie. Ook moet de database geupdate worden met de nieuwe benaming.
+          </p>
+        
+          <p>
+          Na de implementatie moet gecontrolleerd worden of dit goed staat op zowel het klantenportaal als de admin, 
+          als er geen fouten achterhaald kunnen worden moet een testdescriptie geschreven worden voor de testers en zal dit hierna opgeleverd worden op de test omgeving.</p>
+          <p>
+          Process - stappen tot afronding 
+          <ol type="1">
+            <li>Doorverwijzen van de portal naar lokale gedraaide api</li>
+            <li>Opzoeken alle insanties van sixt_leasecar die aangepast moeten worden</li>
+            <li>Benaming veranderen</li>
+            <li>Toevoegen leasecar.cs</li>
+            <li>Aanpassen leasecar vertaling naar conditioneel</li>
+            <li>Veranderen van databasekolom product naar leasecar en sql query maken</li>
+            <li>Controleren of leasecar weergeven word op de admin</li>
+            <li>Controleren of keuze van admin weergeven word in de test van het scherm</li>
+            <li>Committen van aanpassingen</li>
+            <li>Feedback implementeren en commiten </li>
+            <li>Testomschrijving maken</li>
+            <li>Afronden ticket</li>
+          </ol>
+          </p>
+        </div>
+      </div>
+    </section>
+    <section class="bewijslast og">
+      <div class="container">
+        <h4>Bewijzen</h4>
+        <p>Ticket beschrijving:</p>
+        <div class="row">
+          <img src="assets/img/realiseren/ticket1.png" class="col-md-6"></img>
+          <img src="assets/img/realiseren/ticket2.png" class="col-md-6"></img>
+        </div>
+        <div class="in-between"></div>
+        <p>Om bij het scherm te kopen druk je op Leaseauto(rechts)</p>
+        <div class="row">
+          <img src="assets/img/realiseren/stap1.png" class="col-md-7"></img>
+          <div class="in-between"></div>
+          <p style="text-align: center;">Links is voor de aanpassing | Rechts na de aanpassing </p>
+          
+          <img src="assets/img/realiseren/stap2.png" class="col-md-6"></img>
+          <img src="assets/img/realiseren/stap3.png" class="col-md-6"></img>
+        </div>
+      </div>
+    </section>
+
+    <section class="feedback og">
+      <div class="container">
+        <h4>Feedback</h4>
+        <p>Feedback en implementatie van feedback</p>
+        <div class="row">
+          <img src="assets/img/realiseren/feedback1.png" class="col-md-6"></img>
+          <img src="assets/img/realiseren/feedback2.png" class="col-md-4"></img>
+          <img src="assets/img/realiseren/feedback2-2.png" class="col-md-2"></img>
+          <div class="in-between"></div>
+          <img src="assets/img/realiseren/feedback3.png" class="col-md-7"></img>
+        </div>
+      </div>
+    </section>
+
+    <section class="reflectie og">
+      <div class="container">
+        <div class="section-title">
+          <h4>Reflectie</h4>
+        <p>
+          Tijdens het realiseren van de ticket ben ik bezig geweest met de backend van de applicatie.Hierbij heb ik ervaring opgedaan met zowel de translate tool van resx, de folderstructuur van de webapplicatie en de database.</p> 
+          <p>
+            De verwachting van deze leerdoel was het schrijven en opleveren van code van een lopende backlog ticket voor het software team. De bewijzen hierboven geven aan dat ik dit gerealiseerd heb en dat de aanpassingen zijn bevestigd door het stage team.
+            Met de kennis opgedaan via deze eerste ticket hoop ik meer werkzaamheden te kunnen verichten binnen het team.
+        </p>
+        </div>
+      </div>
+    </section>
+
 
   </main><!-- End #main -->
 

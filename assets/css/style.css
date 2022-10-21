@@ -300,11 +300,16 @@ h6 {
   }
 }
 
-.leerdoel-hero.realiseren {
+.leerdoel-hero {
   width: 100%;
   height: 100vh;
   background-size: cover !important;
+}
+.leerdoel-hero.realiseren {
   background: url("../img/realiseren2.jpg") top center;
+}
+.leerdoel-hero.design{
+  background: url("../img/ontwerpen1.jpg") top center;
 }
 
 .leerdoel-hero:before {

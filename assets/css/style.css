@@ -315,7 +315,14 @@ h6 {
   background: url("../img/design.jpg") top center;
 }
 .leerdoel-hero.adviseren{
-  background: url("../img/design.jpg") top center;
+  background: url("../img/analyse1.jpg") top center;
+}
+
+.leerdoel-hero.analyse{
+  background: url("../img/analyse2.jpg") top center;
+}
+.leerdoel-hero.analyse2{
+  background: url("../img/analyse4.jpg") top center;
 }
 
 .leerdoel-hero:before {

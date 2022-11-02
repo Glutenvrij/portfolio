@@ -324,6 +324,9 @@ h6 {
 .leerdoel-hero.analyse2{
   background: url("../img/analyse4.jpg") top center;
 }
+.leerdoel-hero.document{
+  background: url("../img/documentation.jpg") top center;
+}
 
 .leerdoel-hero:before {
   content: "";

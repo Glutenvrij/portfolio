@@ -315,14 +315,26 @@ h6 {
   background: url("../img/design.jpg") top center;
 }
 .leerdoel-hero.adviseren{
-  background: url("../img/analyse1.jpg") top center;
+  background: url("../img/adviseren.jpg") top center;
 }
-
+.leerdoel-hero.document{
+  background: url("../img/ontwerpen2.png") top center;
+}
 .leerdoel-hero.analyse{
   background: url("../img/analyse2.jpg") top center;
 }
 .leerdoel-hero.analyse2{
   background: url("../img/analyse4.jpg") top center;
+}
+.leerdoel-hero.control{
+  background: url("../img/analyse1.jpg") top center;
+}
+
+.leerdoel-hero.skills1{
+  background: url("../img/time.jpg") top center;
+}
+.leerdoel-hero.skills2{
+  background: url("../img/communicate.jpg") top center;
 }
 
 .leerdoel-hero:before {
@@ -865,13 +877,13 @@ color: black;
 }
 .coas-logo{
 background: #0064a7 url(../img/coas.png) no-repeat fixed center;
-width: 202px;
-background-size: 82%;
-height: 50px;
-position: absolute;
-right: 46px;
-top: 4px;
-border-radius: 5px;
+width: 175px;
+  background-size: 82%;
+  height: 50px;
+  position: absolute;
+  left: 320px;
+  top: 4px;
+  border-radius: 5px;
 }
 
 .leerdoel{

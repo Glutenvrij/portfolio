@@ -52,27 +52,27 @@
           <li><a href="control.html" class="nav-link "><i class="bx bxs-collection"></i> <span>Manage & Control</span></a></li>
           <li><a href="analyse.html" class="nav-link multi"><i class="bx bx-book-content"></i> <span>Analyseren</span></a>
             <ul class="hidden">
-              <li><a href="analyse.html" class="nav-link"><i class='bx bx-chevron-right'></i> <span>Leerdoel 1</span></a>
-              <li><a href="analyse2.html" class="nav-link"><i class='bx bx-chevron-right'></i> <span>Leerdoel 2</span></a>
+              <li><a href="analyse.html" class="nav-link"><i class='bx bx-chevron-right'></i> <span>Leerdoel 2</span></a>
+              <li><a href="analyse2.html" class="nav-link"><i class='bx bx-chevron-right'></i> <span>Leerdoel 3</span></a>
             </ul>
           </li>
           <li><a href="advies.html" class="nav-link"><i class="bx bxs-user-voice"></i> <span>Adviseren</span></a></li>
           <li><a href="design.html" class="nav-link multi "><i class="bx bxs-edit"></i> <span>Ontwerpen</span></a>
             <ul class="hidden">
-              <li><a href="design.html" class="nav-link"><i class='bx bx-chevron-right'></i> <span>Leerdoel 1</span></a>
-              <li><a href="design2.html" class="nav-link "><i class='bx bx-chevron-right'></i> <span>Leerdoel 2</span></a>
+              <li><a href="design.html" class="nav-link"><i class='bx bx-chevron-right'></i> <span>Leerdoel 5</span></a>
+              <li><a href="design2.html" class="nav-link "><i class='bx bx-chevron-right'></i> <span>Leerdoel 6</span></a>
             </ul> 
            </li>   
           <li><a href="realiseren.html" class="nav-link multi active"><i class="bx bx-code-block"></i> <span>Realiseren</span></a>
             <ul class="hidden">
-              <li><a href="realiseren.html" class="nav-link active"><i class='bx bx-chevron-right'></i> <span>Leerdoel 1</span></a>
-              <li><a href="realiseren2.html" class="nav-link"><i class='bx bx-chevron-right'></i> <span>Leerdoel 2</span></a>
+              <li><a href="realiseren.html" class="nav-link active"><i class='bx bx-chevron-right'></i> <span>Leerdoel 7</span></a>
+              <li><a href="realiseren2.html" class="nav-link"><i class='bx bx-chevron-right'></i> <span>Leerdoel 8</span></a>
             </ul> 
           </li>
           <li><a href="skills.html" class="nav-link multi"><i class="bx bxs-award"></i> <span>Professional Skills</span></a>
             <ul class="hidden">
-              <li><a href="skills.html" class="nav-link"><i class='bx bx-chevron-right'></i> <span>Leerdoel 1</span></a>
-              <li><a href="skills2.html" class="nav-link"><i class='bx bx-chevron-right'></i> <span>Leerdoel 2</span></a>
+              <li><a href="skills.html" class="nav-link"><i class='bx bx-chevron-right'></i> <span>Leerdoel 9</span></a>
+              <li><a href="skills2.html" class="nav-link"><i class='bx bx-chevron-right'></i> <span>Leerdoel 10</span></a>
             </ul> 
           </li>
         </ul>
@@ -101,11 +101,13 @@
         </div>
           <h4>Inleiding</h4>
           <div class="row">
-          <p class="col-md-6"><span>Voor een demo zal een bestaand scherm aangepast worden zodat de klant een voorbeeld van het eindresultaat heeft. Aldus hoe een scherm eruit komt te zien wanneer het product gerealiseerd is. </span>
-            <p>De vraag is om teksten op een scherm aan te passen en na de demo weer terug te zetten. Dit is natuurlijk geen goede oplossing voor elke nieuwe demo. 
-            Hierom zal deze tekst in dit scherm dynamisch gemaakt worden zodat de bedrijfsnaam op dit scherm in de toekomst makkelijk aangepast kan worden voor andere klanten.
-            </p>
-          </p>
+            <div class="col-md-6">
+              <p><span>Voor een demo zal een bestaand scherm aangepast worden zodat de klant een voorbeeld van het eindresultaat heeft. Aldus hoe een scherm eruit komt te zien wanneer het product gerealiseerd is. </span>
+                <p>De vraag is om teksten op een scherm aan te passen en na de demo weer terug te zetten. Dit is natuurlijk geen goede oplossing voor elke nieuwe demo. 
+                Hierom zal deze tekst in dit scherm dynamisch gemaakt worden zodat de bedrijfsnaam op dit scherm in de toekomst makkelijk aangepast kan worden voor andere klanten.
+                </p>
+              </p>
+            </div>
             <img src="assets/img/realiseren/vraag.png" class="img-fluid col-md-6" alt="">
           </div>
       </div>
@@ -114,43 +116,43 @@
       <div class="container">
         <div class="section-title">
           <h4>Werkwijze</h4>
-          <p> Om de tekst van een bedrijfsnaam in de tekst van dit scherm dynamisch te maken moeten de volgende aanpassingen gemaakt worden:
+          <p> Om de tekst van een bedrijfsnaam in de tekst van dit scherm dynamisch te maken moeten de volgende aanpassingen gemaakt worden:<br>
             Op dit moment staat de benaming specifiek gemaakt voor de portal van "bedrijfsnaam". </p>
           <p>Dit moet generiek gemaakt worden zodat elk bedrijfsnaam ingevuld kan worden en het de tekst hierbij aanpast.
           Hiervoor moet de benaming veranderd worden van "bedrijfsnaam"_LEASECAR naar LEASECAR in de gehele applicatie. Ook moet de database geupdate worden met de nieuwe benaming.
           </p>
         
           <p>
-          Na de implementatie moet gecontrolleerd worden of de aanassing goed staat op zowel het klantenportaal als de admin. 
-          Als er geen fouten achterhaald kunnen worden moet een testomschrijving geschreven worden voor de testers. Hierna kan de aanpassing opgeleverd worden op de test omgeving.</p>
+          Na de implementatie moet gecontroleerd worden of de aanpassing goed staat op zowel het klantenportaal als de admin. 
+          Als er geen fouten achterhaald kunnen worden moet een test omschrijving geschreven worden voor de testers. Hierna kan de aanpassing opgeleverd worden op de test omgeving.</p>
           <p>
             Plan van aanpak
             <ol>
-              <li>Doorlezen van de taakomschrijving</li>
-              <li>Alle instanties in de code opzoeken</li>
-              <li>Aanpassingen implementeren in de code</li>
-              <li>Aanpassen van de database gegevens</li>
-              <li>Testen van de aanpassingen</li>
-              <li>Opleveren van de aanpassingen</li>
+              <li>Doorlezen van de taakomschrijving.</li>
+              <li>Alle instanties in de code opzoeken.</li>
+              <li>Aanpassingen implementeren in de code.</li>
+              <li>Aanpassen van de database gegevens.</li>
+              <li>Testen van de aanpassingen.</li>
+              <li>Opleveren van de aanpassingen.</li>
             </ol>
           </p>
           
           <p>
           Process - Doorgelopen stappen tot afronding 
           <ol type="1">
-            <li>Doorverwijzen van de portal naar lokale gedraaide api</li>
-            <li>Alle instanties opzoeken van "bedrijfsnaam"_leasecar die aangepast moeten worden</li>
-            <li>Benaming veranderen</li>
-            <li>Toevoegen leasecar.cs</li>
-            <li>Aanpassen leasecar vertaling naar conditioneel</li>
-            <li>Veranderen van databasekolom product naar leasecar en sql query maken</li>
-            <li>Controleren of leasecar weergeven word op de admin</li>
-            <li>Controleren of de keuze van de admin weergeven wordt in de test van het scherm</li>
-            <li>Committen van aanpassingen</li>
-            <li>Feedback implementeren en committen </li>
-            <li>Testomschrijving maken</li>
-            <li>Afronden ticket</li>
-            <li>Documenteren voor portfolio en bewijzen verzamelen</li>
+            <li>Doorverwijzen van de portal naar lokaal gedraaide API.</li>
+            <li>Alle instanties opzoeken van "bedrijfsnaam"_leasecar die aangepast moeten worden.</li>
+            <li>Benamingen in de code veranderen en controleren.</li>
+            <li>Toevoegen van leasecar.cs.</li>
+            <li>Conditioneel maken van de leasecar vertaling.</li>
+            <li>Veranderen van de databasekolom "product" naar "leasecar" en een sql query hiervoor maken.</li>
+            <li>Controleren of een leasecar setting weergeven word op de admin. </li>
+            <li>Controleren of de keuze van de admin weergeven wordt in de test van het scherm.</li>
+            <li>Committen van aanpassingen.</li>
+            <li>Feedback implementeren en committen. </li>
+            <li>Test omschrijving maken.</li>
+            <li>Afronden van de ticket.</li>
+            <li>Documenteren voor portfolio en bewijzen verzamelen.</li>
           </ol>
           </p>
         </div>
@@ -174,19 +176,22 @@
       </div>
     </section>
 
-    <section class="reflectie og">
+    <section class="reflectie og" style="height:500px;">
       <div class="container">
         <div class="section-title">
           <h4>Reflectie</h4>
         <p>
           In de eerste maand van mijn stageperiode heb ik deze taak op mogen pakken. 
-          Door in de code te duiken heb ik een goed idee gekregen van de structuur waardoor ik andere taken makkelijker kon oppakken. Dit heeft ook geholpen met research naar mijn stageopdracht.
-          </p>
+          Door in de code te duiken heb ik een goed idee gekregen van de technieken en structuur waardoor ik andere werkzaamheden makkelijker kon oppakken. Dit heeft ook geholpen met research naar mijn stageopdracht.
+        </p>
           <p>
             Het process van werken is gegaan zoals ik het gepland had en zou ik niet anders hebben gedaan. Wel had ik beter naar de vertalingen kunnen kijken zodat er geen extra commits gemaakt hoefde te worden door kleine foutjes.
+            Mijn stagebegeleider zette de nadruk op handmatig committen van mijn werk via de console om dit te leren, waardoor ik minder overzicht had op de aanpassingen die ik had gemaakt, vergeleken met de inzicht van een git client dat ik gewend was.
+            Hierdoor heb ik wel een beter idee gekregen van de werking van commits.
           </p>
+          <p>Door het gehele process heen kon ik makkelijk vragen stellen aan collega's als ik dit had over bijvoorbeeld code, of waar ik iets in de bestanden kon vinden. Als feedback kreeg ik om een meer gedetaileerde test omschrijving te maken om het process makkelijker te maken voor de testers.</p>
           <p>
-          Bij het bespreken van de taak en vragen stellen tussendoor ben ik bezig geweest met zowel Front-end, Back-end, de Database en kennis opgedaan van vertalingstools.
+          Bij het bespreken van de taak en vragen stellen tussendoor ben ik bezig geweest met zowel Front-end, Back-end, de Database en heb ik kennis opgedaan van vertalingstools en het development process van mijn stagebedrijf.
           Door het process van implementeren, testen, implementeren van feedback en oplevering vind ik met deze taak dit leerdoel afgerond te hebben.  
         </p>
 

@@ -876,14 +876,14 @@ color: black;
   padding-bottom: 8px;
 }
 .coas-logo{
-background: #0064a7 url(../img/coas.png) no-repeat fixed center;
-width: 175px;
+  background: #0064a7 url(../img/coas.png) no-repeat fixed center;
+  width: 160px;
   background-size: 82%;
   height: 50px;
-  position: absolute;
-  left: 320px;
-  top: 4px;
+  position: relative;
+  top: -54px;
   border-radius: 5px;
+  float: right;
 }
 
 .leerdoel{
